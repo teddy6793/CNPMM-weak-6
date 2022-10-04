@@ -1,0 +1,5 @@
+<form action="http://localhost:5000/edit/{{blog.id}}" method="post" class="post-form">
+    <input type="text" placeholder="Tựa đề" name="title" required value="{{blog.title}}"/> 
+    <textarea placeholder="Vui lòng nhập nội dung" name="content">{{blog.content}}</textarea>
+    <button type="submit">Cập nhật</button>
+</form>
